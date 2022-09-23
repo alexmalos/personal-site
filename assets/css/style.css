@@ -40,7 +40,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #ff014f;
+  --color-primary: #EFD19F;
   --color-secondary: #f4f5f6;
   --color-tertiary: #0d1013;
   --color-gray: #f6f6f6;
@@ -11773,7 +11773,7 @@ body.template-color-1 {
   font-size: 14px;
   top: 15px;
   right: 15px;
-  background: linear-gradient(to right, #6a67ce, #fc636b) !important;
+  background: linear-gradient(90deg, rgba(0,107,182,1) 0%, rgba(25,110,168,1) 10%, rgba(49,112,153,1) 20%, rgba(74,115,139,1) 30%, rgba(98,117,124,1) 40%, rgba(123,120,110,1) 50%, rgba(147,122,96,1) 60%, rgba(172,125,81,1) 70%, rgba(196,127,67,1) 80%, rgba(221,130,52,1) 90%, rgba(245,132,38,1) 100%) !important;
   color: var(--color-white);
   transition: 0.3s;
 }
@@ -11791,7 +11791,7 @@ body.template-color-1 {
   font-size: 14px;
   top: 15px;
   right: 15px;
-  background: linear-gradient(to right, #6a67ce, #fc636b) !important;
+  background: linear-gradient(90deg, rgba(0,107,182,1) 0%, rgba(25,110,168,1) 10%, rgba(49,112,153,1) 20%, rgba(74,115,139,1) 30%, rgba(98,117,124,1) 40%, rgba(123,120,110,1) 50%, rgba(147,122,96,1) 60%, rgba(172,125,81,1) 70%, rgba(196,127,67,1) 80%, rgba(221,130,52,1) 90%, rgba(245,132,38,1) 100%) !important;
   color: var(--color-white);
   transition: 0.3s;
 }
@@ -12552,7 +12552,7 @@ figcaption {
 }
 
 .section-title span.subtitle {
-  color: #ff014f;
+  color: var(--color-primary);
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 14px;
@@ -12719,7 +12719,7 @@ figcaption {
   }
 }
 .slide .content .inner .title span {
-  color: #ff014f;
+  color: var(--color-primary);
 }
 .slide .content .inner .title .header-caption span {
   color: var(--color-white);
@@ -12930,7 +12930,7 @@ figcaption {
   height: 100%;
   bottom: 0;
   transform: translateX(-50%);
-  background: linear-gradient(to right, #6a67ce, #fc636b) !important;
+  background: linear-gradient(90deg, rgba(0,107,182,1) 0%, rgba(25,110,168,1) 10%, rgba(49,112,153,1) 20%, rgba(74,115,139,1) 30%, rgba(98,117,124,1) 40%, rgba(123,120,110,1) 50%, rgba(147,122,96,1) 60%, rgba(172,125,81,1) 70%, rgba(196,127,67,1) 80%, rgba(221,130,52,1) 90%, rgba(245,132,38,1) 100%) !important;
 }
 .slide .thumbnail.box-gradient .inner {
   padding: 15px;
@@ -13344,7 +13344,7 @@ figcaption {
   }
 }
 .banner-details-wrapper-sticky .banner-title-area .title span {
-  color: #ff014f;
+  color: var(--color-primary);
 }
 @media only screen and (max-width: 575px) {
   .banner-details-wrapper-sticky .banner-title-area .title span {
@@ -14406,7 +14406,7 @@ div#featured-project-carousel {
   }
 }
 .rn-nav-list .nav-item .nav-link:hover, .rn-nav-list .nav-item .nav-link.active {
-  color: #ff014f;
+  color: var(--color-primary);
   background-color: transparent;
   border-color: transparent;
   border: 0 none;
@@ -18263,8 +18263,8 @@ Rn Slick Dots Style
 .box-wrapper {
   margin: 25px;
   background: #ee0979;
-  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
-  background: linear-gradient(to right, #6a67ce, #fc636b) !important;
+  background: -webkit-linear-gradient(90deg, rgba(0,107,182,1) 0%, rgba(25,110,168,1) 10%, rgba(49,112,153,1) 20%, rgba(74,115,139,1) 30%, rgba(98,117,124,1) 40%, rgba(123,120,110,1) 50%, rgba(147,122,96,1) 60%, rgba(172,125,81,1) 70%, rgba(196,127,67,1) 80%, rgba(221,130,52,1) 90%, rgba(245,132,38,1) 100%);
+  background: linear-gradient(90deg, rgba(0,107,182,1) 0%, rgba(25,110,168,1) 10%, rgba(49,112,153,1) 20%, rgba(74,115,139,1) 30%, rgba(98,117,124,1) 40%, rgba(123,120,110,1) 50%, rgba(147,122,96,1) 60%, rgba(172,125,81,1) 70%, rgba(196,127,67,1) 80%, rgba(221,130,52,1) 90%, rgba(245,132,38,1) 100%) !important;
   position: relative;
 }
 @media only screen and (max-width: 767px) {
