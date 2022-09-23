@@ -427,7 +427,7 @@
                 filter: ':not(.external)',
                 easing: 'swing',
                 scrollChange: function($currentListItem) {
-                    console.log(this);
+                    // console.log(this);
                 }
             });
         },
